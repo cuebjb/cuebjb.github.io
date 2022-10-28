@@ -1,0 +1,64 @@
+HTTrack3.49-2 launched on Thu, 27 Oct 2022 21:05:30 at http://http://localhost:8888/knbc/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/*
+(webhttrack -q -%i -w http://http://localhost:8888/knbc/ -O "/Users/jermainebrown/websites/KNBC" -n -%P -N0 -s2 -p7 -D -a -K0 -c4 -%k -A25000 -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -%s -%u )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+21:05:38	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): localhost:8888/knbc/media/com_uniterevolution2/assets/rs-plugin/css/static-captions.css
+21:26:25	Warning: 	file not stored in cache due to bogus state (broken size, expected 862859 got 839765): localhost:8888/knbc/images/com_osgallery/gal-1/original/ontario-grand-interior1A3C5208-DC35-1A11-6A03-712907DB53F6.jpg
+21:38:38	Warning: 	file not stored in cache due to bogus state (broken size, expected 7388914 got 839763): localhost:8888/knbc/images/com_osgallery/gal-3/original/4-chiminea-outdoor-fireplace-editFB967B07-92C8-AC20-DE06-29219C86CE63.jpg
+21:38:58	Warning: 	file not stored in cache due to bogus state (broken size, expected 2442400 got 839764): localhost:8888/knbc/images/com_osgallery/gal-3/original/cupola-ring-sprak-screen-1536x1024199A06A3-597E-DA66-78D9-A75EF6AD9128.png
+22:11:26	Warning: 	HTML file (23829 bytes) retransferred due to lack of cache: localhost:8888/knbc/index.php/about-us
+22:11:31	Warning: 	Retry after error -4 (Incorrect length (839765 Bytes, 862859 expected)) at link localhost:8888/knbc/images/com_osgallery/gal-1/original/ontario-grand-interior1A3C5208-DC35-1A11-6A03-712907DB53F6.jpg (from localhost:8888/knbc/index.php/gazebo-cabana)
+22:11:31	Warning: 	Retry after error -4 (Incorrect length (839763 Bytes, 7388914 expected)) at link localhost:8888/knbc/images/com_osgallery/gal-3/original/4-chiminea-outdoor-fireplace-editFB967B07-92C8-AC20-DE06-29219C86CE63.jpg (from localhost:8888/knbc/index.php/furniture-and-fire-pits)
+22:11:31	Warning: 	Retry after error -4 (Incorrect length (839764 Bytes, 2442400 expected)) at link localhost:8888/knbc/images/com_osgallery/gal-3/original/cupola-ring-sprak-screen-1536x1024199A06A3-597E-DA66-78D9-A75EF6AD9128.png (from localhost:8888/knbc/index.php/furniture-and-fire-pits)
+22:11:31	Warning: 	Retry after error -2 (Receive Time Out) at link localhost:8888/knbc/images/com_osgallery/gal-4/original/sawmill-gallery-09jpegB83A326C-A02A-EDB6-9152-17B85E98E0D2.jpg (from localhost:8888/knbc/index.php/construction)
+22:11:35	Warning: 	Retry after error -2 (Receive Time Out) at link localhost:8888/knbc/images/com_osgallery/gal-4/original/sawmillstructure-gallery-011jpgBCF094B3-7C54-A2C5-0BCC-80E812DD6305.jpg (from localhost:8888/knbc/index.php/construction)
+22:13:26	Warning: 	Retry after error -2 (Receive Time Out) at link localhost:8888/knbc/images/com_osgallery/gal-4/original/sawmill-gallery-13-scaledjpeg8B7AF31A-0440-75EE-37DE-DE97E2C0085C.jpg (from localhost:8888/knbc/index.php/construction)
+22:16:04	Warning: 	Retry after error -2 (Receive Time Out) at link localhost:8888/knbc/media/com_uniterevolution2/assets/rs-plugin/assets/loader.gif (from localhost:8888/knbc/media/com_uniterevolution2/assets/rs-plugin/css/settings.css)
+22:16:08	Error: 	"Not Found" (404) at link localhost:8888/knbc/templates/aaika/images/skin01/but_post_readmore.jpg (from localhost:8888/knbc/templates/aaika/css/style.css)
+22:16:08	Error: 	"Not Found" (404) at link localhost:8888/knbc/templates/aaika/images/skin01/but_post_readmore_hover.jpg (from localhost:8888/knbc/templates/aaika/css/style.css)
+22:16:08	Error: 	"Not Found" (404) at link localhost:8888/knbc/templates/aaika/images/elements/icon-remove.png (from localhost:8888/knbc/templates/aaika/css/shortcodes.css)
+22:16:08	Error: 	"Not Found" (404) at link localhost:8888/knbc/templates/aaika/js/masterslider/masterslider/style/grab.cur (from localhost:8888/knbc/templates/aaika/js/masterslider/style/masterslider.css)
+22:16:08	Error: 	"Not Found" (404) at link localhost:8888/knbc/templates/aaika/js/masterslider/masterslider/style/grabbing.cur (from localhost:8888/knbc/templates/aaika/js/masterslider/style/masterslider.css)
+22:16:08	Error: 	"Not Found" (404) at link www.masterslider.com/wp-content/uploads/home-title-arrow.gif (from localhost:8888/knbc/templates/aaika/js/masterslider/skins/default/style.css)
+22:16:08	Error: 	"Not Found" (404) at link localhost:8888/knbc/templates/aaika/js/images/prettyPhoto/default/sprite.png (from localhost:8888/knbc/templates/aaika/js/masterslider/prettyPhoto.css)
+22:16:08	Error: 	"Not Found" (404) at link localhost:8888/knbc/templates/aaika/js/images/prettyPhoto/default/sprite_x.png (from localhost:8888/knbc/templates/aaika/js/masterslider/prettyPhoto.css)
+22:16:08	Error: 	"Not Found" (404) at link localhost:8888/knbc/templates/aaika/js/images/prettyPhoto/default/sprite_y.png (from localhost:8888/knbc/templates/aaika/js/masterslider/prettyPhoto.css)
+22:16:08	Error: 	"Not Found" (404) at link localhost:8888/knbc/templates/aaika/js/images/prettyPhoto/default/sprite_next.png (from localhost:8888/knbc/templates/aaika/js/masterslider/prettyPhoto.css)
+22:16:08	Error: 	"Not Found" (404) at link localhost:8888/knbc/templates/aaika/js/images/prettyPhoto/default/sprite_prev.png (from localhost:8888/knbc/templates/aaika/js/masterslider/prettyPhoto.css)
+22:16:08	Error: 	"Not Found" (404) at link localhost:8888/knbc/templates/aaika/js/images/prettyPhoto/default/default_thumb.png (from localhost:8888/knbc/templates/aaika/js/masterslider/prettyPhoto.css)
+22:16:08	Error: 	"Not Found" (404) at link localhost:8888/knbc/templates/aaika/js/images/prettyPhoto/default/loader.gif (from localhost:8888/knbc/templates/aaika/js/masterslider/prettyPhoto.css)
+22:16:08	Error: 	"Not Found" (404) at link localhost:8888/knbc/templates/aaika/js/images/prettyPhoto/light_rounded/sprite.png (from localhost:8888/knbc/templates/aaika/js/masterslider/prettyPhoto.css)
+22:16:08	Error: 	"Not Found" (404) at link localhost:8888/knbc/templates/aaika/js/images/prettyPhoto/light_rounded/btnNext.png (from localhost:8888/knbc/templates/aaika/js/masterslider/prettyPhoto.css)
+22:16:08	Error: 	"Not Found" (404) at link localhost:8888/knbc/templates/aaika/js/images/prettyPhoto/light_rounded/btnPrevious.png (from localhost:8888/knbc/templates/aaika/js/masterslider/prettyPhoto.css)
+22:16:08	Error: 	"Not Found" (404) at link localhost:8888/knbc/templates/aaika/js/images/prettyPhoto/light_rounded/loader.gif (from localhost:8888/knbc/templates/aaika/js/masterslider/prettyPhoto.css)
+22:16:08	Error: 	"Not Found" (404) at link localhost:8888/knbc/templates/aaika/js/images/prettyPhoto/dark_rounded/sprite.png (from localhost:8888/knbc/templates/aaika/js/masterslider/prettyPhoto.css)
+22:16:08	Error: 	"Not Found" (404) at link localhost:8888/knbc/templates/aaika/js/images/prettyPhoto/dark_rounded/contentPattern.png (from localhost:8888/knbc/templates/aaika/js/masterslider/prettyPhoto.css)
+22:16:08	Error: 	"Not Found" (404) at link localhost:8888/knbc/templates/aaika/js/images/prettyPhoto/dark_rounded/btnNext.png (from localhost:8888/knbc/templates/aaika/js/masterslider/prettyPhoto.css)
+22:16:08	Error: 	"Not Found" (404) at link localhost:8888/knbc/templates/aaika/js/images/prettyPhoto/dark_rounded/btnPrevious.png (from localhost:8888/knbc/templates/aaika/js/masterslider/prettyPhoto.css)
+22:16:08	Error: 	"Not Found" (404) at link localhost:8888/knbc/templates/aaika/js/images/prettyPhoto/dark_rounded/loader.gif (from localhost:8888/knbc/templates/aaika/js/masterslider/prettyPhoto.css)
+22:16:08	Error: 	"Not Found" (404) at link localhost:8888/knbc/templates/aaika/js/images/prettyPhoto/dark_square/loader.gif (from localhost:8888/knbc/templates/aaika/js/masterslider/prettyPhoto.css)
+22:16:08	Error: 	"Not Found" (404) at link localhost:8888/knbc/templates/aaika/js/images/prettyPhoto/dark_square/sprite.png (from localhost:8888/knbc/templates/aaika/js/masterslider/prettyPhoto.css)
+22:16:08	Error: 	"Not Found" (404) at link localhost:8888/knbc/templates/aaika/js/images/prettyPhoto/dark_square/btnNext.png (from localhost:8888/knbc/templates/aaika/js/masterslider/prettyPhoto.css)
+22:16:08	Error: 	"Not Found" (404) at link localhost:8888/knbc/templates/aaika/js/images/prettyPhoto/dark_square/btnPrevious.png (from localhost:8888/knbc/templates/aaika/js/masterslider/prettyPhoto.css)
+22:16:08	Error: 	"Not Found" (404) at link localhost:8888/knbc/templates/aaika/js/images/prettyPhoto/light_square/sprite.png (from localhost:8888/knbc/templates/aaika/js/masterslider/prettyPhoto.css)
+22:16:08	Error: 	"Not Found" (404) at link localhost:8888/knbc/templates/aaika/js/images/prettyPhoto/light_square/btnNext.png (from localhost:8888/knbc/templates/aaika/js/masterslider/prettyPhoto.css)
+22:16:08	Error: 	"Not Found" (404) at link localhost:8888/knbc/templates/aaika/js/images/prettyPhoto/light_square/btnPrevious.png (from localhost:8888/knbc/templates/aaika/js/masterslider/prettyPhoto.css)
+22:16:08	Error: 	"Not Found" (404) at link localhost:8888/knbc/templates/aaika/js/images/prettyPhoto/facebook/sprite.png (from localhost:8888/knbc/templates/aaika/js/masterslider/prettyPhoto.css)
+22:16:08	Error: 	"Not Found" (404) at link localhost:8888/knbc/templates/aaika/js/images/prettyPhoto/facebook/contentPatternTop.png (from localhost:8888/knbc/templates/aaika/js/masterslider/prettyPhoto.css)
+22:16:08	Error: 	"Not Found" (404) at link localhost:8888/knbc/templates/aaika/js/images/prettyPhoto/facebook/contentPatternLeft.png (from localhost:8888/knbc/templates/aaika/js/masterslider/prettyPhoto.css)
+22:16:08	Error: 	"Not Found" (404) at link localhost:8888/knbc/templates/aaika/js/images/prettyPhoto/facebook/contentPatternRight.png (from localhost:8888/knbc/templates/aaika/js/masterslider/prettyPhoto.css)
+22:16:08	Error: 	"Not Found" (404) at link localhost:8888/knbc/templates/aaika/js/images/prettyPhoto/facebook/loader.gif (from localhost:8888/knbc/templates/aaika/js/masterslider/prettyPhoto.css)
+22:16:08	Error: 	"Not Found" (404) at link localhost:8888/knbc/templates/aaika/js/images/prettyPhoto/facebook/btnNext.png (from localhost:8888/knbc/templates/aaika/js/masterslider/prettyPhoto.css)
+22:16:08	Error: 	"Not Found" (404) at link localhost:8888/knbc/templates/aaika/js/images/prettyPhoto/facebook/btnPrevious.png (from localhost:8888/knbc/templates/aaika/js/masterslider/prettyPhoto.css)
+22:16:08	Error: 	"Not Found" (404) at link localhost:8888/knbc/templates/aaika/js/images/prettyPhoto/facebook/contentPatternBottom.png (from localhost:8888/knbc/templates/aaika/js/masterslider/prettyPhoto.css)
+22:16:08	Error: 	"Not Found" (404) at link localhost:8888/knbc/templates/aaika/js/images/prettyPhoto/facebook/default_thumbnail.gif (from localhost:8888/knbc/templates/aaika/js/masterslider/prettyPhoto.css)
+22:16:08	Error: 	"Not Found" (404) at link localhost:8888/knbc/templates/aaika/js/flexslider/prev-horizontal.png (from localhost:8888/knbc/templates/aaika/js/flexslider/skin.css)
+22:16:08	Error: 	"Not Found" (404) at link localhost:8888/knbc/templates/aaika/js/flexslider/next-horizontal.png (from localhost:8888/knbc/templates/aaika/js/flexslider/skin.css)
+22:16:08	Error: 	"Not Found" (404) at link localhost:8888/knbc/templates/aaika/js/img/modal-bg.png (from localhost:8888/knbc/templates/aaika/js/tooltips/darktooltip.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 hours 25 minutes 53 seconds : 451 links scanned, 403 files written (82121951 bytes overall) [82573692 bytes received at 16024 bytes/sec], 102 bytes transferred using HTTP compression in 2 files, ratio 100%, 3.2 requests per connection
+(41 errors, 12 warnings, 0 messages)

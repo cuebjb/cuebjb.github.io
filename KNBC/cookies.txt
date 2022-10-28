@@ -1,0 +1,4 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+localhost:8888	TRUE	/	FALSE	1999999999	a18dd42092ca6fa9772b0d69fb7413dc	bcks3e1tm95q1hu4gtvhn6ucti
+
